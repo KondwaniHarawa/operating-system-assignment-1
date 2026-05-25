@@ -1,0 +1,25 @@
+# Compiled C files
+*.o
+*.out
+eduos
+threads
+race
+fixed
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+
+# Output / generated files
+pcb_snapshot.json
+simulation_report.json
