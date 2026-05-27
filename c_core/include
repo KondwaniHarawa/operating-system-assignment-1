@@ -10,8 +10,8 @@
 typedef struct {
     pid_t pid;
     char name[64];
-    int state;              // NEW, READY, RUNNING, WAITING, TERMINATED
-    int priority;           // 0 = highest
+    int state;              
+    int priority;           
     int burst_time;
     int arrival_time;
     int remaining_time;
