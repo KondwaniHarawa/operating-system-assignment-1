@@ -1,0 +1,30 @@
+{
+  "FCFS": {
+    "avg_wt": 18.33,
+    "avg_tat": 31.67,
+    "avg_rt": 18.33,
+    "cpu_util": 100.0,
+    "throughput": 0.075
+  },
+  "SJF": {
+    "avg_wt": 8.33,
+    "avg_tat": 21.67,
+    "avg_rt": 8.33,
+    "cpu_util": 100.0,
+    "throughput": 0.075
+  },
+  "Priority": {
+    "avg_wt": 18.33,
+    "avg_tat": 31.67,
+    "avg_rt": 18.33,
+    "cpu_util": 100.0,
+    "throughput": 0.075
+  },
+  "RR(q=2)": {
+    "avg_wt": 17.67,
+    "avg_tat": 31.0,
+    "avg_rt": 2.0,
+    "cpu_util": 100.0,
+    "throughput": 0.075
+  }
+}
