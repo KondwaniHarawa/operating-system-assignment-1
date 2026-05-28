@@ -12,6 +12,7 @@ from datetime import datetime
 BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
 C_BINARY       = os.path.join(BASE_DIR, "../c_core/eduos")
 PCB_FILE       = os.path.join(BASE_DIR, "../c_core/pcb_snapshot.json")
+C_WORK_DIR     = os.path.join(BASE_DIR, "../c_core")
 SCHEDULER      = os.path.join(BASE_DIR, "../python_scheduler/scheduler_sim.py")
 REPORT_FILE    = os.path.join(BASE_DIR, "../docs/simulation_report.json")
 SUMMARIES_FILE = os.path.join(BASE_DIR, "../python_scheduler/summaries.json")
@@ -33,6 +34,7 @@ def run_c_simulator():
 
     process = subprocess.Popen(
         [C_BINARY],
+        cwd=C_WORK_DIR,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True
