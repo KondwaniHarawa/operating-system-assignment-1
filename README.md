@@ -1,7 +1,7 @@
 # EduOS — Operating Systems Simulator
 
 **Module Code:** 351 CS 2104 | **Module:** Operating Systems | **Semester:** III  
-**Student:** Kondwani Harawa | **Registration Number:** [Your Reg Number]  
+**Student:** Kondwani Harawa | **Registration Number:** 25311351029  
 **GitHub:** https://github.com/KondwaniHarawa/operating-system-assignment-1
 
 EduOS is a multi-component OS simulator demonstrating process management,
